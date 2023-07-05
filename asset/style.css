@@ -13,6 +13,8 @@ header {
 .best_top {
     max-width: 1170px;
     width: 80%;
+    margin: auto;
+    color: var(--light-white--txt--bst_top);
 }
 
 .col {
@@ -22,6 +24,7 @@ header {
 
 a {
     text-decoration: none;
+    color: var(--light-white--txt--bst_top)
 }
 
 img {
@@ -53,7 +56,13 @@ img {
 .flex_box {
     display: flex;
 }
+
 .flex_center {
+    display: flex;
     justify-content: center;
-    align-items: center;
+}
+
+.flex_end {
+    display: flex;
+    justify-content: end;
 }
