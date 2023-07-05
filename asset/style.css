@@ -20,6 +20,7 @@ header {
 .col {
     width: calc(100%/12*4);
     padding: 0.6rem 0;
+    position: relative;
 }
 
 a, i {
@@ -38,10 +39,20 @@ a, i {
     width: 100%;
 }
 
-.img_ho1:hover {
-    background-image: url(./img/1b.webp);
+.col > i {
+    background-color: var(--white--sf);
+    width: 25px;
+    height: 25px;
+    color: var(--dark-blk--txt);
+    position: absolute;
+    top: 10%;
+    right: 0;
 }
 
+/* .img_ho1:hover {
+    background-image: url(./img/1b.webp);
+}
+ */
 
 
 /* #endregion main */
@@ -73,6 +84,7 @@ a, i {
 .flex_center {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .flex_end {
