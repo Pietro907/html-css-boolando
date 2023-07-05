@@ -39,7 +39,7 @@ a, i {
     width: 100%;
 }
 
-.col > i {
+.container > .row > .col > i {
     background-color: var(--white--sf);
     width: 25px;
     height: 25px;
