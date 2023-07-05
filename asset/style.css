@@ -4,17 +4,17 @@
     box-sizing: border-box;
 }
 
+/* #region header */
 
 header {
     background-color: var(--orange--bst_top);
 
 }
 
-.best_top {
+.best_top, .container {
     max-width: 1170px;
     width: 80%;
     margin: auto;
-    color: var(--light-white--txt--bst_top);
 }
 
 .col {
@@ -22,16 +22,29 @@ header {
     padding: 0.6rem 0;
 }
 
-a {
+a, i {
     text-decoration: none;
     color: var(--light-white--txt--bst_top)
 }
 
-img {
+.logo {
     width: 115px;
+}
+/* #endregion header */
 
+/* #region main */
+.img_shop {
+    background-size: cover;
+    width: 100%;
 }
 
+.img_ho1:hover {
+    background-image: url(./img/1b.webp);
+}
+
+
+
+/* #endregion main */
 
 
 
