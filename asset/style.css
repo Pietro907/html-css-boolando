@@ -49,6 +49,33 @@ a, i {
     right: 0;
 }
 
+.sustainable, .sales {
+    color: var(--light-white--txt--bst_top);
+    position: absolute;
+    bottom: 15%;
+    padding: 0.2rem;
+}
+
+.sales {
+    background-color: var(--red--sales);
+    width: 50px;
+    
+}
+
+.sustainable {
+    background-color: var(--green--sost);
+    width: 100px;
+    left: 14%;
+}
+
+strong {
+    color: var(--red--sales);
+}
+
+span {
+    text-decoration: line-through;
+}
+
 /* .img_ho1:hover {
     background-image: url(./img/1b.webp);
 }
@@ -60,7 +87,7 @@ a, i {
 
 
 
-/* utilities */
+/* #region utilities */
 
 :root {
     --orange--bst_top: #ff6900;
@@ -91,3 +118,8 @@ a, i {
     display: flex;
     justify-content: end;
 }
+
+.fix_ban{
+    left: 0;
+}
+/* #endregion utilities */
