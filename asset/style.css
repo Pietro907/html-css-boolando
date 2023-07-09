@@ -30,8 +30,12 @@ a {
 
 i {
     color: var(--light-white--txt--bst_top);
-    padding-left: 5px;
+    padding: 3px;
 }
+
+/* i .fa-heart:hover {
+    color: var(--red--sales);
+} */
 
 .logo {
     width: 115px;
@@ -42,6 +46,16 @@ i {
 .img_shop {
     background-size: cover;
     width: 100%;
+}
+
+.col:hover .front{
+    display: none;
+}
+.back{
+    display: none;
+}
+.col:hover .back {
+    display: inline;
 }
 
 .container > .row > .col > i {
@@ -103,7 +117,7 @@ h5 {
 }
 
 h6 {
-    margin: 1rem 0 0.6rem;
+    margin: 1rem 0 1.2rem;
 }
 /* #endregion footer */
 
